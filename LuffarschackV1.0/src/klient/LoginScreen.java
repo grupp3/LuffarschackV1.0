@@ -2,6 +2,7 @@
  * 
  */
 package klient;
+
 import javax.swing.JButton;
 import javax.swing.JTextField;
 /**
@@ -9,15 +10,10 @@ import javax.swing.JTextField;
  *
  */
 public class LoginScreen {
+	//Variables
+	private JButton btnLogin, btnRegister;
+	private JTextField txtUserName, txtPassWord;
 	
-	private JButton btnLogin;
-	private JButton btnRegister;
-	private JTextField txtUserName;
-	private JTextField txtPassWord;
-	
-//	public LoginScreen(ServerConnection connection) {
-//		
-//	}
-	
-	// loginlistener
+	//Methods
+	public LoginScreen(ServerConnection connection) {}	
 }

@@ -1,22 +1,16 @@
 package Server;
 
+import java.util.List;
+
 /**
  * @author  Kamil
  */
 public class PlayerConnection {
 	//variables
 	private ClientSocket socket;
-	/**
-	 * @uml.property  name="playerList"
-	 * @uml.associationEnd  
-	 */
 	private Players playerList;
-	/**
-	 * @uml.property  name="player"
-	 * @uml.associationEnd  
-	 */
 	private Player player;
-	private DatabaseHandles dBHandler;
+	private DatabaseHandler dBHandler;
 	
 	//methods
 	public void start(){}

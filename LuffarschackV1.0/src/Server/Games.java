@@ -1,5 +1,7 @@
 package Server;
 
+import java.util.List;
+
 public class Games {
 	//variables
 	private List<Game> gameList;
