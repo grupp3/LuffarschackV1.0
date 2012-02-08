@@ -2,10 +2,8 @@
  * 
  */
 package klient;
-
 import javax.swing.JButton;
 import javax.swing.JTextField;
-
 /**
  * @author Tiger
  *
